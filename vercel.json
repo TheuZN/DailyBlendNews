@@ -1,3 +1,0 @@
-{
-    "rewriters": [{ "source": "/(.*)", "destination": "/" }] 
-}
