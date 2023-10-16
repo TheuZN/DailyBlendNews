@@ -1,0 +1,17 @@
+#entertainment-section {
+    background-color: #06aa48;
+    color: #fff;
+    text-align: left;
+    padding-block: 3rem;
+    border-radius: 2rem;
+}
+
+#entertainment-section .wrapper a {
+    color: #fff;
+}
+
+#entertainment-section .wrapper img {
+    border-radius: 1rem;
+    margin-bottom: 0.5rem;
+}
+

@@ -1,0 +1,16 @@
+#business-section {
+    background-color: #0e9ab5;
+    color: #fff;
+    text-align: left;
+    padding-block: 3rem;
+    border-radius: 2rem;
+}
+
+#business-section .wrapper a {
+    color: #fff;
+}
+
+#business-section .wrapper img {
+    border-radius: 1rem;
+    margin-bottom: 0.5rem;
+}

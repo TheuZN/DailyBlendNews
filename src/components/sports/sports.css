@@ -1,0 +1,16 @@
+#sports-section {
+    background-color: #a6130a;
+    color: #fff;
+    text-align: left;
+    padding-block: 3rem;
+    border-radius: 2rem;
+}
+
+#sports-section .wrapper a {
+    color: #fff;
+}
+
+#sports-section .wrapper img {
+    border-radius: 1rem;
+    margin-bottom: 0.5rem;
+}

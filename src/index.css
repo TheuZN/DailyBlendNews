@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabarito&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+  --primary-color: ;
+  --secundary-color: ;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-family: 'Gabarito', sans-serif;
+  font-size: 1.6rem;
+  letter-spacing: 0.1rem;
+  text-align: center;
+  overflow: overlay;
+  background-color: #fff;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+  margin-inline: auto;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+.wrapper {    
+  width: min(50rem, 100%);
+  margin-inline: auto;
+  padding-inline: 1.5rem;
+}
+
+.card-small {
+  margin-block: 2.5rem;
+}
+
+.card-small img:hover {
+  opacity: 0.8;
+}
+
+.card-text h2 {
+  margin-bottom: 1rem;
+}
+
+.title {
+  padding-top: 2rem;
+  font-size: 3rem;
+  text-align: center;
+}
+
+.card-img img {
+  width: 100%;
+  min-height: 25rem;
+  max-height: 25rem;
+  object-fit: cover;
+  object-position: center center;
+}
+
+#arrow-top {
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  width: 5rem;
+  display: none;
+}
+
+#arrow-top button img {
+  opacity: 0.4;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 1024px) {
+  .wrapper {    
+    width: min(130rem, 100%);
+    display: grid;
+}
+
+  .card-img img {
+    min-height: 35rem;
+    max-height: 35rem;
+}
+
+.title {
+  padding-top: 2rem;
+  font-size: 4rem;
+  text-align: center;
+}
+}

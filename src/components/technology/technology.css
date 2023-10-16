@@ -1,0 +1,16 @@
+#technology-section {
+    background-color: #ff6700;
+    color: #fff;
+    text-align: left;
+    padding-block: 3rem;
+    border-radius: 2rem;
+}
+
+#technology-section .wrapper a {
+    color: #fff;
+}
+
+#technology-section .wrapper img {
+    border-radius: 1rem;
+    margin-bottom: 0.5rem;
+}

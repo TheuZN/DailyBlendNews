@@ -1,0 +1,21 @@
+#banner {
+    background-color: #0f0f0f;
+    padding-block: 5rem;
+    border-bottom: 0.5rem solid white;
+}
+
+.banner-img img {
+    display: flex;
+    flex-direction: column;
+    border-radius: 2rem;
+    margin-block: 3rem;
+}
+
+@media screen and (min-width: 1024px) {
+    .banner-img {
+        display: flex;
+        flex-direction: row; 
+        justify-content: space-around;   
+        gap: 5rem;
+  }
+}

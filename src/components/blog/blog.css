@@ -1,0 +1,38 @@
+#blog {
+    padding-block: 3rem;
+}
+
+.blog-list {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    margin-block: 5rem;
+    align-items: center;
+}
+
+.blog-writer a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+}
+
+.blog-list img {
+    width: 12rem;
+    margin-bottom: 1rem;
+}
+
+.blog-list span {
+    font-size: 2rem;
+}
+
+@media screen and (min-width: 1024px) {
+    .blog-list {
+        display: flex;
+        flex-direction: row;
+        gap: 3rem;
+        margin-block: 5rem;
+        align-items: center;
+        justify-content: space-between;
+    }    
+}
